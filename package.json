@@ -1,6 +1,7 @@
 {
 	"name": "react-flask-app",
 	"version": "0.1.0",
+	"description": "Seizure Savvy",
 	"private": true,
 	"dependencies": {
 		"@chakra-ui/icons": "^2.1.1",

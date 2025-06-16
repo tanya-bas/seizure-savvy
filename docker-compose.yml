@@ -11,3 +11,4 @@ services:
     image: react-flask-app-client
     ports:
       - "3000:80"
+  
