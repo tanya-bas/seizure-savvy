@@ -1,0 +1,18 @@
+{
+	"[python]": {
+		"editor.tabSize": 4,
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+	"[javascript]": {
+		"editor.tabSize": 2,
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+
+	"[json]": {
+		"editor.tabSize": 2,
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	}
+}
