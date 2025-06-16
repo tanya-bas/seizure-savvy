@@ -273,7 +273,6 @@ If you need assistance with anything related to the project, please contact us t
 We look forward to your contributions and are excited to see what we can build together!
 
 
-<!-- Licence -->
 ## License
 
 SeizureSavvy is made available under the MIT License. For more details, see the [LICENSE](LICENSE.md) file included with this project.
