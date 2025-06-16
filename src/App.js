@@ -11,13 +11,15 @@ import Insights from "./pages/Insights";
 import Medication from "./pages/Medication";
 import AuthProvider from "./contexts/AuthContext";
 import UserProvider from "./contexts/UserContext";
-import Home from "./pages/LogDisplay";
+import Home from "./pages/LogDisplay"; 
+import { useEffect } from "react";
 
 const App = () => (
 	<ChakraProvider>
 		<Router>
 			<AuthProvider>
 				<Routes>
+					// Routes
 					<Route exact path="/" element={<Login />} />
 					<Route exact path="/login" element={<Login />} />
 					<Route exact path="/register" element={<Register />} />

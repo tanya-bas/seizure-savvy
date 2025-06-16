@@ -4,13 +4,7 @@ import convertJSONKeysCase from "../utils/convertJSONKeysCase";
 // Base class for API clients to be inherited from
 export default class ApiService {
 	constructor() {
-		/* // More formal setup
-    if (process.env.REACT_APP_MODE === "production") {
-      this.base_url = process.env.REACT_APP_API_SUFFIX;
-    } else {
-      this.base_url = `${process.env.REACT_APP_DEV_SERVER}${process.env.REACT_APP_API_SUFFIX}`;
-    }
-    */
+
 		this.base_url = "http://127.0.0.1:5000/api";
 
 		// Initialize axios instance with secure defaults

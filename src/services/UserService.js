@@ -2,7 +2,6 @@ import ApiService from "./ApiService";
 
 class UserService extends ApiService {
 	/**
-	 * Retrieve the details of the logged-in user.
 	 * @returns {Promise} A promise that resolves with the user profile.
 	 */
 	async getUserProfile() {

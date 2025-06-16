@@ -43,8 +43,8 @@ class AuthService extends ApiService {
 
 	/**
 	 * Login a user with the provided credentials.
-	 * @param {string} email The user's email.
-	 * @param {string} password The user's password.
+	 * @param {string} email 
+	 * @param {string} password 
 	 * @returns {Promise} A promise that resolves with the login response.
 	 */
 	async login(email, password) {
